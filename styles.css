@@ -1,0 +1,45 @@
+nav{
+  width: 1050px;
+  height: 105px;
+  display: grid;
+  grid-template-columns: repeat(6, 3fr);
+  grid-template-rows: repeat(6, 3fr);
+  justify-content: center;
+  gap: 5px;
+}
+.project1{
+  width: 300px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+  gap: 10px;
+}
+li:hover{
+  font-size: 18px;
+}
+input{
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 10px;
+}
+input:hover{
+  font-size: 20px;
+  border-color: green;
+}
+input:focus{
+  font-size: 1000px;
+  color: red;
+  background-color: black;
+}
+textarea:hover{
+  font-size: 50px;
+  border-color: green black;
+}
+textarea{
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color:  black red;
+}
